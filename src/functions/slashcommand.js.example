@@ -1,0 +1,29 @@
+const Discord = require('discord.js');
+
+module.exports = {
+    name: "command",
+    musiccmd: true,
+    data: new Discord.SlashCommandBuilder()
+        .setName('Command')
+        .setNameLocalizations({
+            "pl": "Komenda"
+        })
+        .setDescription('An example of the slashcommands')
+        .setDescriptionLocalizations({
+            "pl": "Przykład slashcommandów"
+        })
+        .addStringOption(option =>
+            option.setName('command arg')
+                .setNameLocalizations({
+                    "pl": "argument komendy"
+                })
+                .setDescription('An example of the slashcommands argument')
+                .setDescriptionLocalizations({
+                    "pl": "Przykład argumentu slashcommandów"
+                })
+                .setRequired(false)),
+    async execute(client, interaction, serverS, userS, serveruserS) {
+        const inter = interaction;
+
+    },
+};

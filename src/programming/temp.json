@@ -1,0 +1,49 @@
+{
+    "logs": [
+        {
+            "channel": ""
+        },
+        {
+            "applicationCommandPermissionsUpdate": true,
+            "autoModerationActionExecution": true,
+            "autoModerationRuleCreate": true,
+            "autoModerationRuleDelete": true,
+            "autoModerationRuleUpdate": true,
+            "channelCreate": true,
+            "channelDelete": true,
+            "channelPinsUpdate": true,
+            "channelUpdate": true,
+            "emojiCreate": true,
+            "emojiDelete": true,
+            "emojiUpdate": true,
+            "guildBanAdd": true,
+            "guildBanRemove": true,
+            "guildIntegrationsUpdate": true,
+            "guildMemberUpdate": true,
+            "guildScheduledEventCreate": true,
+            "guildScheduledEventDelete": true,
+            "guildScheduledEventUpdate": true,
+            "guildUpdate": true,
+            "inviteCreate": true,
+            "inviteDelete": true,
+            "messageDelete": true,
+            "messageDeleteBulk": true,
+            "messageReactionRemoveAll": true,
+            "messageReactionRemoveEmoji": true,
+            "messageUpdate": true,
+            "roleCreate": true,
+            "roleDelete": true,
+            "roleUpdate": true,
+            "stageInstanceCreate": true,
+            "stageInstanceDelete": true,
+            "stageInstanceUpdate": true,
+            "stickerCreate": true,
+            "stickerDelete": true,
+            "stickerUpdate": true,
+            "threadCreate": true,
+            "threadDelete": true,
+            "threadUpdate": true,
+            "webhooksUpdate": true
+        }
+    ]
+}

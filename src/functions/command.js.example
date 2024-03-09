@@ -1,0 +1,15 @@
+module.exports = {
+    name: 'Command',
+    aliases: ['cmd'],
+    cooldown: 4,
+    votedcooldown: 1,
+    dev: true,
+    permissions: 'SendMessages',
+    botpermission: ['SEND_MESSAGES'],
+
+    helpDescription: 'Desc',
+    helpUsage: '**command**',
+    helpGroup: 'Group',
+    async execute(client, fs, draidS, userS, serverS, serveruserS, user, server, serveruser, message, args, Discord, target, targett) {
+    }
+};
